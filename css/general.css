@@ -1,0 +1,131 @@
+/* div {
+    background-color:blueviolet !important;
+    font-size: 25px;
+} */
+
+* { 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main_link {
+    text-decoration: none;
+    padding: 8px;
+}
+
+#current_location {
+    background-color:rgb(146, 177, 213);
+}
+
+div span {
+    background-color:yellow;
+}
+
+.main_link:hover {
+    background-color:lightsalmon;
+}
+
+#firstname:active {
+    background-color:yellow;
+}
+
+.main_link:visited {
+    color: rgb(141, 92, 162);
+    text-decoration:underline;
+}
+
+#website_header {
+    color:rgb(44, 148, 108);
+    font-size: 35px;
+    font-weight:bold;
+    font-style: normal;
+    text-transform: uppercase capitalize;
+    text-decoration: underline;
+    background-color:white;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(175, 206, 36);
+    text-indent: 10px;
+    letter-spacing: 5px;
+    word-spacing: 0px;
+}
+
+ul {
+    list-style: square 20px;
+    font-size:20px;
+}
+
+ol {
+    list-style: lower-roman;
+    /* list-style-position: outside; */
+    /* list-style-image: url(../images/2.png); */
+    list-style: url("../images/2.png") circle outside;
+    font-size: 15px; 
+}
+
+#about_us_banner{
+    height: 450px;
+    width: 100%;
+    background-color: yellowgreen;
+    background-image: url("../images/Proton.jpeg");
+    /* background-repeat: no-repeat, repeat-x, repeat-y, round, space; */
+    /* background-position: 50px 100px; */
+    background-attachment: scroll;
+    /* background-size: center center; */
+    /* background: rgb(red, green, blue) */
+
+    /* background: url("../images/Range_Rover.jpeg") no-repeat 250px 10px;  */
+}
+
+table{
+    empty-cells: hide;
+    border-collapse:collapse;
+    /* border-spacing: 5px 10px; */
+}
+
+.about_us_pic {
+    height: 150px;
+    width: 150px;
+    background-color: royalblue;
+    margin: 50px;
+    padding: 50px;
+    border:5px dotted red;
+    border-radius: 20px;
+    /* overflow: hidden scroll; */
+    box-sizing: content-box;
+    box-shadow: 5px 10px 0px yellow;
+    display: inline-block;
+}
+
+#building {
+    background-color: seagreen;
+}
+
+#history{
+    background-color: steelblue;
+    /* position: relative;
+    left: 200px;
+    z-index: 1; */
+    clear: left;
+}
+
+#people{
+    background-color: chartreuse;
+    /* position:relative fixed absolute; */
+    /* z-index: 2; */
+    float: left;
+}
+
+#vision{
+    background-color: pink;
+    float: right;
+}
+
+body {
+    height: 2500px;
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+    background-color: lightcyan;
+    padding: 15px;
+}

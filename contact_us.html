@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="website_header">Carshop Company</h1>
+            <h2>Contact Us</h2>
+            <hr>
+            <nav>
+            <a class="main_link" href="index.html">Homepage</a>
+            <a class="main_link" href="products.html">Products</a>
+            <a class="main_link" href="about_us.html">About us</a>
+            <a class="main_link" id="current_location" href="contact_us.html">Contact us</a>
+            </nav>
+        </header>
+        
+            <form>
+                <label for="firstname">firstname: </label>
+                <input type="text" id="firstname" name="firstname" required>
+                <label for="lastname">lastname: </label>
+                <input type="text" id="lastname" name="lastname" placeholder="lastname" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <br>
+                <lebal for="email_address">Email Address:</lebal>
+                <input type="email" id="email_address" name="email_adress">
+                <br>
+                <label for="communication">Mode of communication</label>
+                <input type="radio" value="email" id="email" name="communication">
+                <label for="email">Email:</lebal>
+                <input type="radio" value="phone" id="phone" name="communication">
+                <label for="phone">Phone:</lebal>
+                <input type="radio" value="social_media" id="social_media" name="communication">
+                <label for="social_media">Social Media</label>
+                <br>
+                <label for="advertisement">How did you learn about our company?:</label >
+                <input type="checkbox" value="email" id="email_advertisement" name="advertisement"
+                <label for="email_advertisement">Email</label>
+                <input type="checkbox" value="phone" id="phone_advertisement" name="advertisement"
+                <label for="phone_advertisement">Email</lebal>
+                <input type="checkbox" value="social_media" id="social_media_advertisement" name="advertisement"
+                <label for="social_media">Social Media</lebal>
+                <br>
+                <label for="country_of_origin">Country of origin:</label>
+                <select id="country_of_origin" name="country_of_origin">
+                    <option value="australia">Australia</option>
+                    <option value="belize">Belize</option>
+                    <option value="congo">Congo</option>
+                    <option value="dibouti">Dibouti</option>
+                    <option value="eriotia">Eritoria</option>
+                    <option value="finland">Finland</option>
+                    <option value="ghana">Ghana</option>
+                    </select>
+                    <br>
+                <label for="country_of_preference">Country of origin:</label>
+                <select id="country_of_preference" name="country_of_preference" multiple>
+                    <option value="australia">Australia</option>
+                    <option value="belgium">Belgium</option>
+                    <option value="canada">Canada</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="ertonia">Estonia</option>
+                    <option value="france">Firance</option>
+                    <option value="germany">Germany</option>
+                    </select> 
+                    <br>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="0" max="135">
+                    <br>
+                    <label for="fileinput">File:</label>
+                    <input type="file" id="fileinput" name="fileinput">
+                    <br>
+                    <button type="submit" value="submit">Submit</button>
+                    <input type="image" src="images/Green_button.jpeg" height="30px">
+                    <br>
+                    <input type="button" value="Click me">
+            </form>
+    </div>
+    
+</body>
+</html>
